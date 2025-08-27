@@ -7,6 +7,14 @@ body {
   text-align: left;
 }
 
+/* sentrerer innholdet (tekst + bilde) */
+.innhold {
+  text-align: center;         /* Sentrerer tekst */
+  display: flex;
+  flex-direction: column;     /* Plasserer elementene oppå hverandre */
+  align-items: center;        /* Sentrerer bildet horisontalt */
+}
+
 /* Overskrifter */
 h1 {
   color: darkgreen;
