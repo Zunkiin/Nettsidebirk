@@ -20,8 +20,8 @@ h2 {
 
 /* Bilde i en div */
 .bilde {
-  width: 950px;
-  height: 680px;  /* Fast høyde nødvendig! */
+  width: 600px;
+  height: 400px;  /* Fast høyde nødvendig! */
   background-image: url("https://i.imgur.com/ORPlDFA.jpeg");
   background-size: contain;
   background-repeat: no-repeat;
