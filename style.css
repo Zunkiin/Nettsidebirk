@@ -1,11 +1,13 @@
+
 body {
-  background-color: lightblue;
+  background-color: lightblue;  /* Bakgrunnsfarge */
+  color: darkgreen;                 /* Tekstfarge */
   font-family: Arial, sans-serif;
-  margin: 20px;   /* luft rundt siden */
-  color: black;
-  text-align: left; /* setter teksten til venstre */
+  margin: 20px;
+  text-align: left;
 }
 
+/* Overskrifter */
 h1 {
   color: darkgreen;
   margin-bottom: 10px;
@@ -16,16 +18,13 @@ h2 {
   margin-top: 10px;
 }
 
-/* Bilde som bakgrunn i en div */
+/* Bilde i en div */
 .bilde {
-  width: 300px;       /* bredde på bildet */
-  height: auto;       /* høyden følger automatisk */
-  aspect-ratio: 3 / 2; /* forholdet 3:2 for høyde/bredde */
+  width: 300px;
+  height: 200px;  /* Fast høyde nødvendig! */
   background-image: url("https://i.imgur.com/ORPlDFA.jpeg");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  margin: 10px 0;     /* margin opp og ned */
+  margin: 10px 0;
 }
-
-
