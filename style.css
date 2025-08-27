@@ -1,25 +1,31 @@
 body {
-  background-color: #f0f0f0;
+  background-color: white;
   font-family: Arial, sans-serif;
-  text-align: center;
+  margin: 20px;   /* luft rundt siden */
+  color: black;
+  text-align: left; /* setter teksten til venstre */
 }
 
 h1 {
   color: darkblue;
+  margin-bottom: 10px;
 }
 
 h2 {
-  color: darkblue;
+  color: darkgreen;
+  margin-top: 10px;
 }
 
+/* Bilde som bakgrunn i en div */
 .bilde {
-  width: 300px;           
-  height: auto;           
+  width: 300px;       /* bredde på bildet */
+  height: auto;       /* høyden følger automatisk */
+  aspect-ratio: 3 / 2; /* forholdet 3:2 for høyde/bredde */
   background-image: url("https://i.imgur.com/ORPlDFA.jpeg");
-  background-size: contain;   
-  background-repeat: no-repeat; 
+  background-size: contain;
+  background-repeat: no-repeat;
   background-position: center;
-  margin-top: 10px;
-  margin-bottom: 10px;
-} /*
+  margin: 10px 0;     /* margin opp og ned */
+}
+
 
