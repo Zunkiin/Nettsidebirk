@@ -37,7 +37,7 @@ h2 {
   margin: 10px 0;
 }
 
-.spesiell-link {
-  color: lightgreen;
+.spesiell-link {   /* instillinger for bare en link */
+  color: lightgreen;  
   font-weight: bold;
 }
